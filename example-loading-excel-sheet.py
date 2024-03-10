@@ -7,7 +7,7 @@ filename = 'C:/Users/Connie/Downloads/comparison.xlsx'
 xls = pd.ExcelFile(filename)
 
 # Pick the sheet name you want to load into a pandas dataframe
-df = pd.read_excel(filename, sheet_name="Migration")
+df = pd.read_excel(filename, sheet_name="SheetNameGoesHere")
 
 # Print the first five rows that are loaded
 print(df.head(5))
